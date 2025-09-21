@@ -1,4 +1,7 @@
 package lk.kavishka.greenshadowbackend.repository;
 
-public class StaffRepository {
+import lk.kavishka.greenshadowbackend.entity.Staff;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface StaffRepository extends JpaRepository<Staff, String> {
 }

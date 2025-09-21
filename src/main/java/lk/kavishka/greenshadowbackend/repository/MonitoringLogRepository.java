@@ -1,4 +1,7 @@
 package lk.kavishka.greenshadowbackend.repository;
 
-public class MonitoringLogRepository {
+import lk.kavishka.greenshadowbackend.entity.MonitoringLog;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MonitoringLogRepository extends JpaRepository<MonitoringLog, String> {
 }

@@ -1,4 +1,7 @@
 package lk.kavishka.greenshadowbackend.repository;
 
-public class VehicleRepository {
+import lk.kavishka.greenshadowbackend.entity.Vehicle;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface VehicleRepository extends JpaRepository<Vehicle, String> {
 }

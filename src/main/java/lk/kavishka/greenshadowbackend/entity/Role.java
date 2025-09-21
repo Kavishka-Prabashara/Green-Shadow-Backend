@@ -1,4 +1,5 @@
 package lk.kavishka.greenshadowbackend.entity;
 
-public class Role {
+public enum Role {
+    MANAGER, ADMINISTRATIVE, SCIENTIST, OTHER
 }
